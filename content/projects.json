@@ -1,0 +1,180 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "slug": "AIGC-for-midnite",
+      "title": "AIGC for Midnite",
+      "category": "Brand Animation",
+      "type": "motion",
+      "year": "2026",
+      "description": "Dynamic brand identity system with kinetic typography and shape morphing for a tech startup.",
+      "image": "/images/kinetic-identity-cover.png",
+      "detail": {
+        "heroImage": "/images/kinetic-identity-cover.png",
+        "heroVideo": "https://youtu.be/NU2W1CMjTo0",
+        "overview": "I designed the art direction to be bold, energetic, and contemporary, centered around a vibrant \"Midnite Green\" palette to stay true to the brand identity. I integrated a mix of 2D and 3D graphics, blending stylized motion graphics with surreal imagery to create a unique visual language. Through dynamic cinematography, fast-paced cuts, and intentional close-ups, I aimed to capture the user's excitement while showcasing the app's features in a way that feels trendy and relatable to a tech-savvy generation.",
+        "role": ["Motion Design", "Brand Identity", "Creative Direction"],
+        "client": "Midnite",
+        "duration": "2 weeks",
+        "gallery": ["/images/midnite-gallery-1.png", "/images/midnite-gallery-2.png"],
+        "videos": [],
+        "challenge": "My primary challenge was to create a promotional piece that could break through the noise of a crowded and highly competitive betting market. I needed to distance the brand from traditional bookmaker tropes—like the \"grandad's bookie\" clichés—to appeal to a younger, digital-first audience. The goal was to produce something that felt fresh and exciting rather than just another standard commercial.",
+        "solution": "I addressed this by merging creative storytelling with cutting-edge technology, specifically collaborating with Google DeepMind to utilize their Veo AI video generation model. By using AI to craft the more surreal and visually striking segments, I was able to achieve a futuristic aesthetic that highlights a commitment to innovation. The final result is a high-energy, captivating video that effectively communicates ease of use and positions the platform as a modern alternative to traditional betting."
+      }
+    },
+    {
+      "id": 2,
+      "slug": "motion-wheel",
+      "title": "Motion Wheel 2025",
+      "category": "Motion Design",
+      "type": "motion",
+      "year": "2025",
+      "description": "Immersive architectural visualization blending organic motion with rigid structures.",
+      "image": "/images/fluid-spaces-cover.png",
+      "detail": {
+        "heroImage": "/images/fluid-spaces-cover.png",
+        "heroVideo": "https://youtu.be/QvPIJasu3EY",
+        "overview": "My art direction for this reel focuses on a high-energy, versatile aesthetic that adapts to each brand's specific soul. For the Midnite segments, I leaned into a \"neon-fast\" style, using vibrant greens and surreal AI-generated imagery to capture a digital-first buzz. In contrast, when working with brands like Samsung and Hublot, I shifted my focus toward sleek, polished, and sophisticated visuals. My goal across the entire reel was to maintain a signature sense of dynamic motion and modern color theory that keeps the viewer locked in.",
+        "role": ["3D Animation", "Art Direction"],
+        "client": "Multiple",
+        "duration": "5 weeks",
+        "gallery": ["/images/motionwheel-gallery-1.png", "/images/motionwheel-gallery-2.png"],
+        "videos": [],
+        "challenge": "The biggest challenge I faced was demonstrating my range across vastly different industries without making the montage feel like a collection of random clips. I had to prove I could master high-concept AI integration—specifically using Veo—while still delivering the luxury cinematography required for high-end tech and watches. It was a balancing act: I needed to showcase individual brand identities while ensuring my own creative voice remained the unifying force throughout the video.",
+        "solution": "I solved this by using a high-tempo editorial rhythm, employing fast-paced cuts and intentional transitions to create a consistent pulse throughout the reel. I also used a unified sound design and a driving soundtrack to bridge the gap between the playful animations and the more refined luxury segments. By carefully curating the flow, I transformed these diverse projects into a cohesive story of how I blend traditional production with cutting-edge AI tools to deliver a high-concept, cinematic experience."
+      }
+    },
+    {
+      "id": 3,
+      "slug": "hublot-tourbillion",
+      "title": "Hublot Tourbillion",
+      "category": "3D Motion",
+      "type": "motion",
+      "year": "2024",
+      "description": "Abstract 3D exploration of materiality and form through procedural animation techniques.",
+      "image": "/images/form-and-matter-cover.png",
+      "detail": {
+        "heroImage": "/images/form-and-matter-cover.png",
+        "heroVideo": "https://youtu.be/0M2HCrNehLY",
+        "overview": "The art direction of this video is sleek, sophisticated, and luxurious. It uses a minimalist color palette, with a focus on metallic and dark tones, which is consistent with the Hublot brand. The cinematography is elegant and precise, with a focus on the watch's intricate details and mechanical components. The overall look is meant to be high-end and aspirational, appealing to a wealthy and discerning audience.",
+        "role": ["3D Motion", "Procedural Animation", "Creative Direction"],
+        "client": "Hublot Tourbillion",
+        "duration": "8 weeks",
+        "gallery": ["/images/hublot-gallery-1.png", "/images/hublot-gallery-2.png"],
+        "videos": [],
+        "challenge": "The main challenge for Hublot was to create a promotional video that effectively communicates the watch's quality and craftsmanship without being overly commercial or sales-oriented. They needed to create a piece that feels like an art film, rather than a traditional advertisement, to appeal to their sophisticated target audience.",
+        "solution": "Hublot addressed this challenge by using high-quality cinematography and sound design to create a visually and aurally immersive experience. They focused on the watch's intricate details and mechanical components, using close-ups and slow-motion shots to highlight its craftsmanship. The resulting video is a beautiful and evocative piece that effectively communicates the watch's quality and craftsmanship, successfully positioning Hublot as a leader in the luxury watch market."
+      }
+    },
+    {
+      "id": 4,
+      "slug": "aigc-iris",
+      "title": "AICG for IRIS",
+      "category": "Commercial",
+      "type": "motion",
+      "year": "2025",
+      "description": "Luxury brand commercial featuring fluid metallic simulations and cinematic lighting.",
+      "image": "/images/liquid-gold-cover.png",
+      "detail": {
+        "heroImage": "/images/liquid-gold-cover.png",
+        "heroVideo": "https://youtu.be/172ziOzZcdE",
+        "overview": "I directed the art of this video with a vibrant, high-energy style, utilizing a mix of stylized animated characters and brand logos. The animated characters, Leanne and Menno, have a distinct, modern look with expressive features and fluid movements. The color palette is varied and eye-catching, with each brand segment reflecting its unique identity while maintaining the overall high-energy vibe. The fast-paced cuts and rhythmic transitions keep the viewer engaged and create a sense of momentum throughout the video.",
+        "role": ["Motion Design", "VFX"],
+        "client": "IRIS Worldwide",
+        "duration": "2 weeks",
+        "gallery": ["/images/aigc-iris-gallery-1.png", "/images/aigc-iris-gallery-2.png"],
+        "videos": [],
+        "challenge": "The main challenge I faced was effectively communicating IRIS Worldwide's diverse portfolio of global business wins in a concise and engaging 60-second recap. I needed to showcase numerous brands and their respective projects without overwhelming the viewer or losing the overall narrative of the agency's success. Additionally, I had to ensure that each brand segment felt distinct yet cohesive within the broader context of the IRIS brand.",
+        "solution": "I addressed this challenge by using animated characters, Leanne and Menno, as narrators to guide the viewer through the recap. Their expressive features and fluid movements, achieved through the integration of AI-generated content, added a layer of personality and engagement to the video. I also utilized fast-paced cuts and rhythmic transitions to create a sense of momentum and keep the recap within the 60-second timeframe. By carefully curating the brand segments and maintaining a consistent high-energy tone, I was able to effectively communicate IRIS Worldwide's global business wins in a visually compelling and memorable way."
+      }
+    },
+    {
+      "id": 5,
+      "slug": "tug-of-war",
+      "title": "Tug of war",
+      "category": "Frame by frame animation",
+      "type": "motion",
+      "year": "2022",
+      "description": "Experimental kinetic typography series deconstructing letterforms through motion.",
+      "image": "/images/type-in-motion-cover.png",
+      "detail": {
+        "heroImage": "/images/type-in-motion-cover.png",
+        "heroVideo": "https://www.youtube.com/watch?v=ubUqx19eCzg",
+        "overview": "I chose a frame-by-frame animation approach to give the piece a tactile, expressive energy that feels alive in every movement. This technique allowed me to exaggerate poses, push timing, and create intentional imperfections that reinforce emotion and momentum. Visually, the monster is treated as a unifying force — large, chaotic, and ever-present — while the characters are animated with distinct rhythms that reflect their individuality. As the story progresses, their motion language begins to sync, using animation itself as a storytelling device to communicate unity.",
+        "role": ["Character Design", "Illustrator", "Art Direction"],
+        "client": "Self-Initiated",
+        "duration": "6 weeks",
+        "gallery": ["/images/tug-of-war-gallery-1.png", "/images/tug-of-war-gallery-2.png"],
+        "videos": [],
+        "challenge": "The biggest challenge was maintaining clarity and cohesion while animating complex action frame by frame. With multiple characters, fast beats, and evolving relationships, there was a risk of visual noise or unclear storytelling. On top of that, the shift from internal conflict to collaboration needed to feel organic, not abrupt. Every frame had to carry narrative intent, because in frame-by-frame animation there's nowhere to hide — weak transitions or unclear poses immediately break the illusion.",
+        "solution": "I leaned heavily into strong key poses and readable silhouettes to anchor the action, then built fluid transitions that guide the eye through each beat. By gradually aligning the characters' timing, spacing, and direction of movement, I used animation principles to visually represent cooperation. The frame-by-frame process allowed me to fine-tune emotion and impact at a granular level, ensuring that when the characters finally unite to defeat the monster, it feels earned, powerful, and emotionally clear — reinforcing the core idea that working together is stronger than fighting alone."
+      }
+    },
+    {
+      "id": 6,
+      "slug": "scholl-campaign",
+      "title": "Scholl campaign",
+      "category": "Art Direction",
+      "type": "motion",
+      "year": "2022",
+      "description": "Sculptural motion piece exploring the intersection of natural textures and digital form.",
+      "image": "/images/organic-structure-cover.png",
+      "detail": {
+        "heroImage": "/images/organic-structure-cover.png",
+        "heroVideo": "https://youtu.be/yK5AQZ-CxZQ",
+        "overview": "I built the art direction around the contrast between everyday tension and moments of relief, using the 3D frog as a playful yet memorable visual guide. The frog's soft materials, rounded shapes, and relaxed body language were intentionally designed to embody comfort and ease, acting almost as a physical manifestation of pain relief. I grounded the world in relatable daily-life scenarios, then used polished 3D animation to elevate the product benefit without feeling clinical. The frog helps bridge realism and charm, making the message feel accessible, warm, and human.",
+        "role": ["Art Direction", "3D Animation", "Texturing"],
+        "client": "Scholl",
+        "duration": "8 weeks",
+        "gallery": ["/images/scholl-gallery-1.png", "/images/scholl-gallery-2.png"],
+        "videos": [],
+        "challenge": "The main challenge was communicating pain relief and relaxation in a way that felt emotional rather than functional. Foot and body care can easily become overly technical or forgettable if treated too literally. I needed to ensure the frog didn't feel like a gimmick, but instead a meaningful storytelling device that reinforces trust in the product. Balancing product clarity with character-driven animation was key — especially making sure the message landed quickly in everyday contexts.",
+        "solution": "I solved this by integrating the frog directly into moments of relief, letting its presence visually signal comfort before the product is even explained. Through expressive animation, gentle timing, and tactile interactions, the frog becomes shorthand for relaxation and support. By pairing familiar daily-life stress points with a consistent, friendly 3D character, the story clearly shows that Scholl products are there to help people unwind and relieve pain — turning an abstract benefit into something instantly felt and remembered."
+      }
+    },
+    {
+      "id": 7,
+      "slug": "adidas-ss23",
+      "title": "Adidas SS23",
+      "category": "Commercial",
+      "type": "motion",
+      "year": "2023",
+      "description": "A clean, data-rich SaaS dashboard interface designed for clarity and effortless navigation.",
+      "image": "/images/adidas-ss23-cover.png",
+      "detail": {
+        "heroImage": "/images/adidas-ss23-cover.png",
+        "heroVideo": "https://youtu.be/iC7DcDc_A9Y",
+        "overview": "I grounded the art direction in real outdoor environments, letting the landscapes and physical effort speak for the product. Every shot is designed to highlight the Terrex shoes in motion — hiking, climbing, and navigating uneven terrain — positioning them as an extension of the body rather than a standalone object. The camera language feels active and immersive, staying close to the ground to emphasize grip, stability, and durability. By keeping the styling minimal and performance-driven, the focus stays on authenticity and capability.",
+        "role": ["Art Direction", "Editor", "VFX"],
+        "client": "Adidas",
+        "duration": "7 weeks",
+        "gallery": ["/images/adidas-ss23-gallery-1.png", "/images/adidas-ss23-gallery-2.png"],
+        "videos": [],
+        "challenge": "The key challenge was proving performance without relying on overt technical explanations. Hiking gear audiences value credibility, and anything overly stylized or artificial risks breaking trust. I needed to show that Terrex isn't just worn outdoors, but truly built for it. At the same time, the shoes had to remain visually present without feeling forced or overly product-centric.",
+        "solution": "I solved this by making real use the hero. Each outdoor action becomes evidence, using repetition of movement and terrain to reinforce reliability. The consistent framing of the shoes during impact moments — steps, climbs, and landings — naturally positions them as the most important tool on the journey. By letting performance lead the storytelling, the film clearly communicates that Terrex is your best companion for hiking, without needing to say it out loud."
+      }
+    },
+    {
+      "id": 8,
+      "slug": "asos-valentines-date-night",
+      "title": "Asos Valentine's Date Night",
+      "category": "Web Design",
+      "type": "motion",
+      "year": "2023",
+      "description": "Elegant e-commerce experience for a fashion brand, balancing editorial storytelling with seamless shopping.",
+      "image": "/images/maison-cover.png",
+      "detail": {
+        "heroImage": "/images/maison-cover.png",
+        "heroVideo": "https://youtube.com/shorts/XYVqoPoemi4",
+        "overview": "I wanted the film to feel bold, playful, and instantly relatable to a younger Gen-Z audience, leaning into a modern, high-energy Valentine's aesthetic rather than traditional romance. The visuals are fast-paced and expressive, using confident styling, close-up details, and dynamic cuts to highlight outfits as moments of self-expression. The tone is flirtatious but self-aware, mixing fashion with attitude so the date-night looks feel exciting, wearable, and socially native rather than overly polished.",
+        "role": ["Web Design", "E-commerce", "Art Direction"],
+        "client": "ASOS",
+        "duration": "4 weeks",
+        "gallery": ["/images/asos-valentines-gallery.png"],
+        "videos": [],
+        "challenge": "The challenge was to make Valentine's Day feel relevant and desirable to a younger audience that's often skeptical of cliché romance marketing, while still driving clear commercial intent. I needed to balance emotional appeal with fashion credibility, ensuring the ad didn't feel forced or sales-led, but instead spoke in a language Gen-Z recognizes and trusts. At the same time, the film had to clearly communicate ASOS as the go-to destination for date-night styling.",
+        "solution": "I solved this by centering the narrative around confidence, individuality, and the fun of getting ready, positioning ASOS outfits as tools for self-expression rather than just Valentine's purchases. By keeping the storytelling short, visually punchy, and attitude-driven, the ad feels native to social platforms and easy to engage with. This approach reframes Valentine's Day as a moment of personal style and excitement, ultimately encouraging younger consumers to shop ASOS for their own version of date night."
+      }
+    }
+  ]
+}
