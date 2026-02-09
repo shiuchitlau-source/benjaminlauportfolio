@@ -1,6 +1,7 @@
 import React from "react"
 import type { Metadata } from "next";
 import { Manrope, Syne } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "./globals.css";
 
@@ -31,6 +32,7 @@ export default function RootLayout({
         className={`${manrope.variable} ${syne.variable} font-sans antialiased`}
       >
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
