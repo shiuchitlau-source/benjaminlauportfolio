@@ -69,7 +69,7 @@ function ProjectCard({
           <div className="mt-1 flex items-center gap-2">
             {project.type === "web" && (
               <span className="rounded-full bg-primary/10 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-primary">
-                Web
+                Shoot
               </span>
             )}
             <span className="rounded-full bg-secondary px-3 py-1 text-xs font-medium text-muted-foreground">
@@ -93,7 +93,7 @@ export function ProjectGrid() {
   const filters: { label: string; value: Filter }[] = [
     { label: "All", value: "all" },
     { label: "Motion", value: "motion" },
-    { label: "Web Design", value: "web" },
+    { label: "Shoot", value: "web" },
   ];
 
   return (

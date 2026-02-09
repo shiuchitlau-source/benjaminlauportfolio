@@ -16,6 +16,9 @@ const tools = [
   "Houdini",
   "Figma",
   "Premiere Pro",
+  "ComfyUI",
+  "Google AI studio",
+  "AI Tools",
 ];
 
 export function About() {
