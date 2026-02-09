@@ -48,9 +48,6 @@ function ProjectCard({
           {/* Hover overlay */}
           <div className="absolute inset-0 flex items-end rounded-2xl bg-gradient-to-t from-black/70 via-black/20 to-transparent p-6 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
             <div className="w-full">
-              <p className="mb-4 max-w-xs text-sm leading-relaxed text-white/90">
-                {project.description}
-              </p>
               <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-white">
                 View Project
                 <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
