@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { ViewWorkButton } from "./view-work-button";
 
 const line1 = "Pixels With";
 const line2 = "Momentum.";
@@ -31,21 +32,17 @@ export function Hero() {
           Motion Designer
         </motion.p>
 
-        <h1 className="font-display text-[clamp(2.8rem,8vw,8rem)] font-extrabold leading-[0.95] tracking-tight text-foreground">
+        <h1 className="font-display text-[clamp(2.8rem,8vw,8rem)] font-extrabold leading-[0.95] tracking-tight">
           {[line1, line2].map((line, i) => (
             <span key={line} className="block overflow-hidden">
               <motion.span
-                className="block"
+                className={`block ${i === 1 ? "text-primary" : ""}`}
                 custom={i}
                 initial="hidden"
                 animate="visible"
                 variants={lineVariant}
               >
-                {i === 1 ? (
-                  <span className="text-primary">{line}</span>
-                ) : (
-                  line
-                )}
+                {line}
               </motion.span>
             </span>
           ))}
@@ -67,12 +64,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.9 }}
           className="mt-10 flex items-center gap-5"
         >
-          <a
-            href="#work"
-            className="rounded-full bg-foreground px-8 py-3.5 text-sm font-semibold text-background transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
-          >
-            View Work
-          </a>
+          <ViewWorkButton />
           <a
             href="#contact"
             className="rounded-full border border-foreground/20 px-8 py-3.5 text-sm font-semibold text-foreground transition-all duration-300 hover:border-foreground hover:bg-foreground hover:text-background"
