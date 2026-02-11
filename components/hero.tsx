@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ViewWorkButton } from "./view-work-button";
+import { AnimatedTitle } from "./animated-title";
 
 const line1 = "Pixels With";
 const line2 = "Momentum.";
@@ -35,15 +36,11 @@ export function Hero() {
         <h1 className="font-display text-[clamp(2.8rem,8vw,8rem)] font-extrabold leading-[0.95] tracking-tight">
           {[line1, line2].map((line, i) => (
             <span key={line} className="block overflow-hidden">
-              <motion.span
-                className={`block ${i === 1 ? "text-primary" : ""}`}
-                custom={i}
-                initial="hidden"
-                animate="visible"
-                variants={lineVariant}
-              >
-                {line}
-              </motion.span>
+              <AnimatedTitle
+                text={line}
+                className="block"
+                colorClass={i === 1 ? "text-primary" : ""}
+              />
             </span>
           ))}
         </h1>
