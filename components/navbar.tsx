@@ -17,7 +17,7 @@ export function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
         <Link
           href="/"
-          className="font-display text-xl font-bold tracking-tight text-foreground"
+          className="font-display text-xl font-bold tracking-tight text-[hsl(20,98%,59%)]"
         >
           Benjamin Lau
         </Link>

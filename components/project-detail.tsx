@@ -57,7 +57,7 @@ export function ProjectDetail({ project }: { project: Project }) {
             <ArrowLeft className="h-4 w-4 transition-transform duration-300 group-hover:-translate-x-1" />
             Back to Projects
           </Link>
-          <span className="font-display text-sm font-bold tracking-tight text-foreground">
+          <span className="font-display text-sm font-bold tracking-tight text-[hsl(20,98%,59%)]">
             Benjamin Lau
           </span>
         </div>
