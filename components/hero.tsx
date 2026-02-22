@@ -1,8 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
+import dynamic from "next/dynamic";
 import { ViewWorkButton } from "./view-work-button";
+import { GetInTouchButton } from "./get-in-touch-button";
 import { AnimatedTitle } from "./animated-title";
+
+const Dither = dynamic(() => import("./dither"), {
+  ssr: false,
+  loading: () => (
+    <div className="absolute inset-0 bg-muted/30" aria-hidden />
+  ),
+});
 
 const line1 = "Pixels With";
 const line2 = "Momentum.";
@@ -20,10 +29,26 @@ const lineVariant = {
   }),
 };
 
+// Wave color: medium gray, visible on light and dark backgrounds (0-1 RGB)
+const WAVE_COLOR: [number, number, number] = [0.45, 0.45, 0.5];
+
 export function Hero() {
   return (
-    <section className="relative flex min-h-[90vh] items-end px-6 pb-20 pt-32 lg:px-8">
-      <div className="mx-auto w-full max-w-7xl">
+    <section className="relative flex min-h-[90vh] items-end overflow-hidden px-6 pb-20 pt-32 lg:px-8">
+      {/* Background animation - dithered waves */}
+      <div className="absolute inset-0 z-0 min-h-[90vh] w-full">
+        <Dither
+          waveColor={WAVE_COLOR}
+          disableAnimation={false}
+          enableMouseInteraction
+          mouseRadius={0.3}
+          waveAmplitude={0.3}
+          waveFrequency={3}
+          waveSpeed={0.075}
+          className="absolute inset-0 h-full w-full"
+        />
+      </div>
+      <div className="relative z-10 mx-auto w-full max-w-7xl">
         <motion.p
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -33,27 +58,17 @@ export function Hero() {
           Motion Designer
         </motion.p>
 
-        <h1 className="font-display text-[clamp(2.8rem,8vw,8rem)] font-extrabold leading-[0.95] tracking-tight">
+        <h1 className="font-display text-[clamp(2.8rem,8vw,8rem)] font-extrabold leading-[0.95] tracking-tight text-white">
           {[line1, line2].map((line, i) => (
             <span key={line} className="block overflow-hidden">
               <AnimatedTitle
                 text={line}
                 className="block"
-                colorClass={i === 1 ? "text-primary" : ""}
+                colorClass={i === 1 ? "text-[hsl(20,98%,59%)]" : ""}
               />
             </span>
           ))}
         </h1>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.7 }}
-          className="mt-10 max-w-lg text-base leading-relaxed text-muted-foreground md:text-lg"
-        >
-          Crafting bold, immersive motion experiences that bring brands to life
-          through animation, 3D, and visual storytelling.
-        </motion.p>
 
         <motion.div
           initial={{ opacity: 0 }}
@@ -62,12 +77,7 @@ export function Hero() {
           className="mt-10 flex items-center gap-5"
         >
           <ViewWorkButton />
-          <a
-            href="#contact"
-            className="rounded-full border border-foreground/20 px-8 py-3.5 text-sm font-semibold text-foreground transition-all duration-300 hover:border-foreground hover:bg-foreground hover:text-background"
-          >
-            Get in Touch
-          </a>
+          <GetInTouchButton />
         </motion.div>
       </div>
     </section>

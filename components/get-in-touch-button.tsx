@@ -6,7 +6,7 @@ import { useCallback, useRef, useState } from "react";
 const STRENGTH = 0.12;
 const SPRING = { type: "spring" as const, stiffness: 350, damping: 25 };
 
-export function ViewWorkButton() {
+export function GetInTouchButton() {
   const ref = useRef<HTMLAnchorElement>(null);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -42,8 +42,8 @@ export function ViewWorkButton() {
   return (
     <motion.a
       ref={ref}
-      href="#work"
-      className="group relative inline-block overflow-hidden rounded-full bg-background/80 px-8 py-3.5 text-sm font-semibold text-foreground backdrop-blur-xl transition-colors duration-300 hover:bg-primary hover:text-primary-foreground"
+      href="#contact"
+      className="group relative inline-block overflow-hidden rounded-full border border-foreground/20 bg-background/80 px-8 py-3.5 text-sm font-semibold text-foreground backdrop-blur-xl transition-colors duration-300 hover:border-primary hover:bg-primary hover:text-primary-foreground"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       onMouseEnter={handleMouseEnter}
@@ -51,7 +51,7 @@ export function ViewWorkButton() {
       whileTap={{ scale: 0.96 }}
       transition={{ type: "spring", stiffness: 400, damping: 17 }}
     >
-      <span className="relative z-10 block">View Work</span>
+      <span className="relative z-10 block">Get in Touch</span>
       {isHovered && (
         <motion.span
           className="pointer-events-none absolute inset-0 z-0 w-1/2 skew-x-[-12deg] rounded-full bg-gradient-to-r from-transparent via-white/30 to-transparent"
