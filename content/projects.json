@@ -1,6 +1,28 @@
 {
   "projects": [
     {
+      "id": 9,
+      "slug": "wises-digital-card-splash",
+      "title": "Wise's Digital Card Splash",
+      "category": "Motion Design",
+      "type": "motion",
+      "year": "2026",
+      "description": "Launch splash exploring Wise's digital card through bold motion, light, and fluid UI moments.",
+      "image": "/images/wises-transactions.png",
+      "detail": {
+        "heroImage": "/images/wises-transactions.png",
+        "heroVideo": "https://youtu.be/_EC-MCCvu5s",
+        "overview": "This concept explores how a digital card launch can feel cinematic and product-focused at the same time. The splash leans into Wise's brand colors, combining clean UI compositions with dynamic transitions that echo the speed and simplicity of sending money abroad. The goal is to make the card feel instantly familiar—like an extension of the existing product—while giving it its own visual moment.",
+        "role": ["Motion Design", "Art Direction"],
+        "client": "Wise",
+        "duration": "3 weeks",
+        "gallery": ["/images/wises-transactions.png", "/images/wises-radial-cards.png"],
+        "videos": [],
+        "challenge": "The challenge is to showcase a purely digital product in a way that still feels tactile and emotionally engaging, without relying on clichéd fintech visuals.",
+        "solution": "By using layered UI frames, card close-ups, and fluid camera moves, the splash creates a sense of physicality around the digital card. Subtle lighting cues and particle accents support the idea of instant activation and seamless use, keeping the focus on clarity while still feeling premium and energetic."
+      }
+    },
+    {
       "id": 1,
       "slug": "AIGC-for-midnite",
       "title": "AIGC for Midnite",
