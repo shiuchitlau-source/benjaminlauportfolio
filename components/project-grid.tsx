@@ -7,7 +7,7 @@ import { motion, useInView, AnimatePresence } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { projects, type Project } from "@/lib/projects";
 
-type Filter = "all" | "motion" | "web";
+type Filter = "all" | "motion" | "web" | "event";
 
 function ProjectCard({
   project,
@@ -72,6 +72,11 @@ function ProjectCard({
                 Shoot
               </span>
             )}
+            {project.type === "event" && (
+              <span className="rounded-full bg-primary/10 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-primary">
+                Event
+              </span>
+            )}
             <span className="rounded-full bg-secondary px-3 py-1 text-xs font-medium text-muted-foreground">
               {project.year}
             </span>
@@ -94,6 +99,7 @@ export function ProjectGrid() {
     { label: "All", value: "all" },
     { label: "Motion", value: "motion" },
     { label: "Shoot", value: "web" },
+    { label: "Event", value: "event" },
   ];
 
   return (

@@ -23,6 +23,76 @@
       }
     },
     {
+      "id": 10,
+      "slug": "wise-future-store-london",
+      "title": "Wise future store London",
+      "category": "Event",
+      "type": "event",
+      "year": "2026",
+      "description": "Photography and documentation from Wise's Future Stores activation in London—retail, Wisdom Bar, and the Wise × Jenki matcha bar.",
+      "image": "/images/wise-future-store-london-cover.png",
+      "detail": {
+        "heroImage": "/images/wise-future-store-london-cover.png",
+        "heroVideo": null,
+        "overview": "This project captures the Wise Future Stores experience on Oxford Street: the lime-green flagship, the Wisdom Bar, immersive digital installations, and the Jenki matcha collaboration. The imagery balances street-level energy with intimate moments inside the space—staff in brand green, customers with totes, and the scale of the wrapped glass façade.",
+        "role": ["Motion Design", "Art Direction", "Set Design"],
+        "client": "Wise",
+        "duration": "1 week",
+        "gallery": [
+          "/images/wise-future-store-london-01.png",
+          "/images/wise-future-store-london-02.png",
+          "/images/wise-future-store-london-03.png",
+          "/images/wise-future-store-london-04.png",
+          "/images/wise-future-store-london-05.png",
+          "/images/wise-future-store-london-06.png",
+          "/images/wise-future-store-london-07.png",
+          "/images/wise-future-store-london-08.png",
+          "/images/wise-future-store-london-09.png",
+          "/images/wise-future-store-london-10.png"
+        ],
+        "videos": [],
+        "challenge": "Showing a busy retail flagship without losing the clarity of branding and the warmth of human interaction.",
+        "solution": "A mix of wide exteriors, environmental interiors, and close-up lifestyle frames keeps the story readable at every scale—from Oxford Street context to one-on-one moments at the Wisdom Bar."
+      }
+    },
+    {
+      "id": 11,
+      "slug": "samsung-skate-park",
+      "title": "Samsung skate park",
+      "category": "Event",
+      "type": "event",
+      "year": "2024",
+      "description": "Graphic system and event documentation for a Samsung skate-park activation tied to Galaxy Z Flip5—bold patterns, street culture, and live performance.",
+      "image": "/images/samsung-skate-park-cover.png",
+      "detail": {
+        "heroImage": "/images/samsung-skate-park-cover.png",
+        "heroVideo": "https://youtu.be/gW9KfXGeqEQ",
+        "overview": "This project spans the visual world for Samsung's skate-park experience: modular skateboard motifs, high-contrast colorways, and typography moments built around Galaxy Z Flip5. The look balances playful street energy with a clean, product-launch polish—patterns that scale from social snippets to large-format event LED, plus photography from the live runway and crowd.",
+        "role": ["Art Direction", "Motion Design", "Graphic Design"],
+        "client": "Samsung",
+        "duration": "4 weeks",
+        "gallery": [
+          "/images/samsung-skate-park-10.png",
+          "/images/samsung-skate-park-01.png",
+          "/images/samsung-skate-park-02.png",
+          "/images/samsung-skate-park-03.png",
+          "/images/samsung-skate-park-04.png",
+          "/images/samsung-skate-park-05.png",
+          "/images/samsung-skate-park-06.png",
+          "/images/samsung-skate-park-07.png",
+          "/images/samsung-skate-park-08.png",
+          "/images/samsung-skate-park-09.png",
+          "/images/samsung-skate-park-11.png"
+        ],
+        "videos": [
+          "/videos/samsung-skate-park-img-6140.mp4",
+          "/videos/samsung-skate-park-img-6089.mp4"
+        ],
+        "challenge": "Unifying a wide toolkit—abstract patterns, UI-style icons, type treatments, and documentary stills—so everything still reads as one Samsung moment rather than scattered assets.",
+        "solution": "A tight palette of teal, mint, periwinkle, orange, and coral against black grounds the system, while repeating skate-deck geometries carry through every layout. The hero film and stage photography anchor the campaign in real energy, so the graphics feel like an extension of the event, not just a layered template."
+      }
+    },
+    {
       "id": 1,
       "slug": "AIGC-for-midnite",
       "title": "AIGC for Midnite",

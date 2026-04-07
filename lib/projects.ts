@@ -6,7 +6,7 @@ export interface Project {
   slug: string;
   title: string;
   category: string;
-  type: "motion" | "web";
+  type: "motion" | "web" | "event";
   year: string;
   description: string;
   image: string;

@@ -107,6 +107,11 @@ export function ProjectDetail({ project }: { project: Project }) {
                       Web Design
                     </span>
                   )}
+                  {project.type === "event" && (
+                    <span className="rounded-full bg-accent/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-accent">
+                      Event
+                    </span>
+                  )}
                 </div>
                 <h1 className="font-display text-5xl font-extrabold tracking-tight text-foreground md:text-7xl lg:text-8xl">
                   {project.title}
@@ -192,24 +197,27 @@ export function ProjectDetail({ project }: { project: Project }) {
       <section className="px-6 py-8 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-4 md:grid-cols-2">
-            {project.detail.gallery.map((img, i) => (
-              <FadeIn key={`img-${i}-${img}`} delay={i * 0.1}>
+            {project.detail.videos?.map((videoUrl, i) => (
+              <FadeIn key={`video-${i}-${videoUrl}`} delay={i * 0.1}>
                 <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-muted">
-                  <Image
-                    src={img || "/placeholder.svg"}
-                    alt={`${project.title} gallery ${i + 1}`}
-                    fill
+                  <VideoEmbed
+                    url={videoUrl}
+                    title={`${project.title} video ${i + 1}`}
                     className="object-cover"
                   />
                 </div>
               </FadeIn>
             ))}
-            {project.detail.videos?.map((videoUrl, i) => (
-              <FadeIn key={`video-${i}-${videoUrl}`} delay={(project.detail.gallery?.length ?? 0) * 0.1 + i * 0.1}>
+            {project.detail.gallery.map((img, i) => (
+              <FadeIn
+                key={`img-${i}-${img}`}
+                delay={(project.detail.videos?.length ?? 0) * 0.1 + i * 0.1}
+              >
                 <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-muted">
-                  <VideoEmbed
-                    url={videoUrl}
-                    title={`${project.title} video ${i + 1}`}
+                  <Image
+                    src={img || "/placeholder.svg"}
+                    alt={`${project.title} gallery ${i + 1}`}
+                    fill
                     className="object-cover"
                   />
                 </div>
