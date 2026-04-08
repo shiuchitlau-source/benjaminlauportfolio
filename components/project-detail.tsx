@@ -99,9 +99,11 @@ export function ProjectDetail({ project }: { project: Project }) {
             <div>
               <FadeIn>
                 <div className="mb-4 flex flex-wrap items-center gap-3">
-                  <span className="rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary">
-                    {project.category}
-                  </span>
+                  {project.category.trim() ? (
+                    <span className="rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary">
+                      {project.category}
+                    </span>
+                  ) : null}
                   {project.type === "web" && (
                     <span className="rounded-full bg-accent/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-accent">
                       Web Design
@@ -244,9 +246,11 @@ export function ProjectDetail({ project }: { project: Project }) {
               <ArrowUpRight className="mb-2 h-8 w-8 text-muted-foreground transition-all duration-300 group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 md:h-12 md:w-12" />
             </Link>
             <div className="mt-6 flex items-center gap-3">
-              <span className="rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary">
-                {nextProject.category}
-              </span>
+              {nextProject.category.trim() ? (
+                <span className="rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary">
+                  {nextProject.category}
+                </span>
+              ) : null}
               <span className="text-sm text-muted-foreground">
                 {nextProject.year}
               </span>

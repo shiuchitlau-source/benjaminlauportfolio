@@ -62,9 +62,11 @@ function ProjectCard({
             <h3 className="font-display text-xl font-bold tracking-tight text-foreground transition-colors duration-300 group-hover:text-primary">
               {project.title}
             </h3>
-            <p className="mt-1 text-sm text-muted-foreground">
-              {project.category}
-            </p>
+            {project.category.trim() ? (
+              <p className="mt-1 text-sm text-muted-foreground">
+                {project.category}
+              </p>
+            ) : null}
           </div>
           <div className="mt-1 flex items-center gap-2">
             {project.type === "web" && (
