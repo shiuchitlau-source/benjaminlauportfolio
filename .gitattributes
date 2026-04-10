@@ -1,5 +1,43 @@
-* text=auto
+* text=auto eol=lf
+
+# JavaScript / TypeScript
+*.js text eol=lf
+*.jsx text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
 *.ts text eol=lf
 *.tsx text eol=lf
+*.d.ts text eol=lf
+
+# Web and config text files
+*.css text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
 *.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
 *.md text eol=lf
+*.txt text eol=lf
+*.svg text eol=lf
+
+# Shell and environment files
+*.sh text eol=lf
+*.bash text eol=lf
+.env text eol=lf
+.env.* text eol=lf
+
+# Keep Windows scripts with CRLF when needed
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files - never normalize
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
