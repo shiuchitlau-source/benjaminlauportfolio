@@ -26,7 +26,11 @@ export interface Project {
   };
 }
 
-const projects: Project[] = (projectsData as { projects: Project[] }).projects;
+const HIDDEN_PROJECT_SLUGS = new Set(["wises-digital-card-splash"]);
+
+const projects: Project[] = (projectsData as { projects: Project[] }).projects.filter(
+  (project) => !HIDDEN_PROJECT_SLUGS.has(project.slug)
+);
 
 export { projects };
 
